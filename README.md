@@ -23,13 +23,8 @@ http://chaijs.com/
 https://github.com/domenic/chai-as-promised/
 
 #### Install node
-```
-sudo apt-get update
-sudo apt-get install -y python-software-properties python g++ make
-sudo add-apt-repository -y ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs
-```
+
+https://nodejs.org/en/download/
 
 #### Install Grunt
 ```
