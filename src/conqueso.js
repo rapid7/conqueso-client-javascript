@@ -47,7 +47,13 @@ Conqueso.prototype.getProperties = function(role){
             else {
                 // The response is a JSON object we'll want to cache for future
                 // requests
-                newSet = new PropertySet(body);
+                try {
+                    newSet = new PropertySet(body);
+                } catch(err){
+                    deferred.reject(err);
+                    return;
+                }
+
                 self.properties[role] = newSet;
 
                 deferred.resolve(newSet);
