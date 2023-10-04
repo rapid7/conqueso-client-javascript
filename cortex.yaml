@@ -1,0 +1,14 @@
+---
+info:
+  title: Conqueso Client Javascript
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/conqueso-client-javascript
+  x-cortex-tag: conqueso-client-javascript
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: insightidr
+openapi: 3.0.1
+servers:
+- url: "/"
